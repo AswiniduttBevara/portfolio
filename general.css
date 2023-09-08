@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    overflow-x: hidden;
+  }
+
+.icon-links{
+  width: 4rem;
+  height: 4rem;
+}
+
+.techStack-icon-links {
+  width: 6rem;
+  height: 6rem;
+}
+
+.heroSectionLogo{
+  height: 7rem;
+  width: 10rem
+}
+
+/* .container{
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+} */
+
+.heroSection{
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.hero-info {
+  /* background-color: rgb(195, 108, 108); */
+  background-color: rgb(123, 230, 230);
+  color: white;
+  padding: 3rem 3.2rem;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.projects {
+  width: 100vw;
+  padding: 2rem 3.2rem;
+  margin: 0 auto 2rem 0;
+}
+
+.foot {
+  width: 100vw;
+  padding: 2rem 3.2rem;
+  margin: 0 auto;
+  background-color: rgb(123, 230, 230);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.added{
+  height: 20rem;
+  width: 20rem;
+  background-color: red;
+  display: none;
+}
+
+.ready {
+  display: block;
+}

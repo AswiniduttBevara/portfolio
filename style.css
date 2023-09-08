@@ -1,0 +1,247 @@
+/* ////////////////////// */
+/* nav */
+/* ////////////////////// */
+
+.nav{
+    /* background-color: navy; */
+    /* max-width: 150rem; */
+    margin: 0 auto;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1rem; */
+    padding: 1rem;
+
+    margin-bottom: 5rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    position: relative;
+}
+
+.nav-list{
+    padding: 0 1rem;
+}
+
+.nav-list ul{
+    color: white;
+    /* max-width: 37rem; */
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* margin: 1rem;
+    padding: 1rem; */
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-list li {
+    /* background-color: red; */
+    /* width: 1rem; */
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    /* justify-content: center; */
+    /* background-color: pink; */
+    margin: 0.4rem 0.7rem;
+    padding: 0.4rem 0.7rem;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+    /* color: #fff; */
+    font-weight: 600;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: orange;
+    /* transition: all 3s; */
+    /* font-size: 3rem;
+    font-weight: 900; */
+}
+
+.button-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+}
+
+.icon-mobile-nav{
+    height: 4rem;
+    width: 4rem;
+    color: #fff;
+}
+
+.icon-mobile-nav[name="close"] {
+    display: none;
+}
+
+/* ////////////////////// */
+/* info */
+/* ////////////////////// */
+
+.info{
+    max-width: 150rem;
+    margin: 0 auto 5rem auto;
+    /* margin: 1rem; */
+    padding: 0 5rem;
+    /* background-color: brown; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.name{
+    /* background-color: red; */
+    /* height: 200px;
+    width: 200px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.name p {
+    /* margin-bottom: 1rem; */
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+    position: absolute;
+    right: 0;
+    transform: translate(-30%,6%);
+    padding: 1rem 0.5rem;
+}
+
+/* ////////////////////// */
+/* tech stack */
+/* ////////////////////// */
+.techStack {
+    max-width: 150rem;
+    margin: 0 auto;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techStack-icons {
+    /* background-color: rgb(102, 71, 71); */
+  background-color: rgb(123, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem 2rem;
+}
+
+/* ////////////////////// */
+/* hero-info */
+/* ////////////////////// */
+
+.hero-about{
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+.hero-details {
+    display: flex;
+    /* grid-template-columns: 2fr,1fr; */
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.hero-description{
+    font-size: 2.5rem;
+    font-weight: 200;
+    width: 70%;
+    line-height: 4rem
+}
+
+.hero-profilePic {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20%;
+}
+.project-heading {
+    text-align: center;
+    color: rgb(120, 120, 200);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0 4rem 0
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+  
+.card{
+    background-color: gray;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: wheat;
+}
+
+.card-heading {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.card-paragraph {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.foot-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+  
+.foot-description{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}

@@ -1,0 +1,188 @@
+
+
+
+
+/* mobile navigation */
+@media(max-width: 45em){
+    .button-mobile-nav{
+        display: block;
+        z-index: 1;
+    }
+
+    
+
+    .nav-list{
+        position: absolute;
+        background-color: #333;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-in;
+        transform: translateX(100%);
+        /* display: none; */
+
+        /* hide it visually */
+        opacity: 0;
+
+        /* make it unavilable to mouse and keyboard */
+        pointer-events: none;
+
+        /* hide it from the screen readers */
+        visibility: hidden;
+    }
+
+    .nav-open .nav-list{
+        opacity: 1;
+        pointer-events: all;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-open .icon-mobile-nav[name="close"] {
+        display: block;
+    }
+    
+    .nav-open .icon-mobile-nav[name="menu"] {
+        display: none;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited{
+        /* color: #fff; */
+        /* font-weight: 600; */
+        font-size: 3rem;
+        /* transition: all 0.3s; */
+    }
+
+    .name h1 {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    
+    .name p {
+        /* margin-bottom: 1rem; */
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .icon-links{
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+
+    .techStack-icon-links {
+        width: 5rem;
+        height: 5rem;
+    }   
+
+    .hero-description{
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 3rem;
+        justify-self: center;
+    }
+    
+    .hero-profilePic {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 20%;
+    }
+
+    .hero-image {
+        justify-self: center;
+    }
+
+    
+
+}
+
+@media (max-width: 38em) {
+    
+    .heroSection{
+        padding: 0;
+    }
+
+    .info {
+        padding: 0;
+    }
+    .name h1 {
+        margin-bottom: 1rem;
+        font-size: 2.2rem;
+    }
+    
+    .name p {
+        /* margin-bottom: 1rem; */
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    .icon-links{
+        width: 3rem;
+        height: 3rem;
+    }
+      
+    .techStack-icon-links {
+        width: 4rem;
+        height: 4rem;
+    }    
+
+    .hero-details {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .hero-description{
+        font-size: 2rem;
+        line-height: 3rem
+    } */
+
+    .hero-profilePic {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20%;
+    }
+}
+
+@media (max-width: 60em ) {
+    .hero-description{
+        font-size: 2rem;
+        line-height: 3rem
+    }
+}
+
+@media (max-width: 70em) {
+    .cards {
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    
+    }
+
+    .card {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 47em) {
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .card {
+        justify-self: center;
+    }
+}
+
+
